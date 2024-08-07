@@ -2,11 +2,9 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-<<<<<<< HEAD
-name: 'my_new_project'
-=======
+
 name: 'jaffle_shop'
->>>>>>> d4b8b2a70e232d5464917be511d607b7f83d3516
+
 version: '1.0.0'
 config-version: 2
 
@@ -40,13 +38,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-<<<<<<< HEAD
-  my_new_project:
-    # Applies to all files under models/example/
-    example:
-      +materialized: table
-=======
+
   jaffle_shop:
     +materialized: table
 
->>>>>>> d4b8b2a70e232d5464917be511d607b7f83d3516
+
