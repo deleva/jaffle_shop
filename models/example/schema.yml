@@ -7,9 +7,14 @@ models:
       columns:
           - name: id
             description: "The primary key for this table"
+<<<<<<< HEAD
+            
+              
+=======
             tests:
                 - unique
                 - not_null
+>>>>>>> d4b8b2a70e232d5464917be511d607b7f83d3516
 
     - name: my_second_dbt_model
       description: "A starter dbt model"
